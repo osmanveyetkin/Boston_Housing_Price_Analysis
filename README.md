@@ -36,7 +36,7 @@ Before running the project, make sure you have:
 #### **Using the Terminal or R Console:**
 1. Set your working directory (if needed):
    ```r
-   setwd("~/Desktop/Boston_Housing_Analysis")
+   setwd("~/Desktop/Boston_Housing_Price_Analysis")
    ```
 2. Run the script:
    ```r
