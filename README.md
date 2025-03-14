@@ -8,7 +8,29 @@ This project analyzes the **Boston Housing Dataset** using **Exploratory Data An
 ![hist_median_price](https://github.com/user-attachments/assets/e042641d-b1d4-4435-9c6d-57e1ee1012c3)
 ![correlation_heatmap](https://github.com/user-attachments/assets/ae857303-7659-4026-86e1-63f3dec65fdd)
 
+## **📈 Model Comparison & Results**
+We trained two models for price prediction:
 
+### **Model Performance (RMSE values)**
+| Model                 | RMSE (Lower is Better) |
+|----------------------|----------------------|
+| **Linear Regression** | **5.77** |
+| **Random Forest** | **3.2** |
+
+- **Random Forest performed better**, reducing the RMSE by approximately **45%** compared to Linear Regression.
+- The **Random Forest model explained 85.22% of variance**, whereas Linear Regression only explained **56.58%**.
+- The most influential features were **Number of Rooms (positive impact)** and **Crime Rate & Tax (negative impact)**.
+
+### **Example Predictions vs. Actual Prices**
+| Actual Price ($1000s) | Predicted Price ($1000s) |
+|----------------------|----------------------|
+| 34.7 | 33.4 |
+| 28.7 | 26.1 |
+| 16.5 | 18.8 |
+| 15.0 | 21.1 |
+| 20.4 | 20.2 |
+
+This comparison highlights the model’s **accuracy and potential areas for improvement**.
 
 ## **🔹 How to Run the Project**
 ### **1️⃣ Install Required Software**
